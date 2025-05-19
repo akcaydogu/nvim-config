@@ -48,7 +48,7 @@ map('n', '<leader>e', ':Neotree toggle<cr>', defaults)
 -- Keymaps for Compiler
 -- Open compiler
 -- Toggle compiler results
-map('n', '<leader>c', "<cmd>w | <cmd>CompilerOpen<CR>", defaults)
+map('n', '<leader>c', "<cmd>w <CR>| <cmd>CompilerOpen<CR>", defaults)
 map('n', '<S-F7>', "<cmd>CompilerToggleResults<cr>", defaults)
 
 -- Redo last selected option
